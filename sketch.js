@@ -2,7 +2,8 @@ var R = 0
 var G = 0
 var B = 0
 function setup() {
-  createCanvas(windowWidth, windowHeight)
+  // createCanvas(windowWidth, windowHeight)
+  fullscreen(true);
   background(0, 0, 0);
 }
 function draw() {
@@ -17,6 +18,6 @@ function draw() {
       fill(0, 0, 0);
       ellipse(mouseX, mouseY, 16, 16);
     }
-  
+
 
 }
