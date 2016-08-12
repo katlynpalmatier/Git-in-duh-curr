@@ -1,9 +1,11 @@
 var R = 0
 var G = 0
 var B = 0
-function setup() {
-  // createCanvas(windowWidth, windowHeight)
+function mousePressed(){
   fullscreen(true);
+}
+function setup() {
+  createCanvas(windowWidth, windowHeight);
   background(0, 0, 0);
 }
 function draw() {
